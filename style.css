@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+img {
+  height: 100%; }
+
+body {
+  background-color: #525659;
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  line-height: 1.7;
+  padding: 3rem 0; }
+
+.header {
+  background-image: url("Images/TopBackground.png");
+  width: 80vw;
+  height: 80vh;
+  margin-left: 11.11rem;
+  background-size: 100%;
+  overflow: hidden;
+  background-position: top;
+  padding: 3rem 5rem;
+  color: white; }
+
+.navigation {
+  margin-bottom: 3rem; }
+  .navigation li {
+    display: inline-block; }
+  .navigation .logo-name {
+    font-weight: 400;
+    font-size: 2.6rem;
+    margin-left: 5rem; }
+  .navigation .input1 {
+    width: 40rem;
+    border: solid white 0.03rem;
+    background-color: transparent;
+    border-radius: 2.4rem;
+    margin: 0 3rem;
+    padding: 0.5rem;
+    color: white; }
+    .navigation .input1::placeholder {
+      color: white; }
+  .navigation li {
+    margin: 0 1.5rem;
+    font-size: 1.6rem; }
+  .navigation .svg-logo {
+    margin-top: 0.6rem;
+    color: white;
+    width: 0.8;
+    stroke-linecap: round;
+    stroke-miterlimit: 22.9256; }
+
+.header-main {
+  display: flex; }
+  .header-main .section1 {
+    width: 50%; }
+    .header-main .section1 h1 {
+      margin: 0 35rem 3rem 3rem;
+      font-size: 2.6rem; }
+    .header-main .section1 .p-primary {
+      margin: 0 30rem 3rem 3rem;
+      font-size: 1.6rem; }
+    .header-main .section1 .p-secondary {
+      margin: 0 3rem 0 3rem;
+      font-size: 0.9rem; }
+      .header-main .section1 .p-secondary .svg-logo {
+        padding-top: .5rem;
+        color: #99FFFF; }
+  .header-main .section2 {
+    width: 50%; }
+    .header-main .section2 img {
+      width: 50rem;
+      height: 40rem; }
+
+.main1 {
+  display: flex;
+  width: 80vw;
+  height: 60vh;
+  margin-left: 11.11rem; }
+  .main1 .sec1 {
+    width: 50%; }
+    .main1 .sec1 img {
+      width: 100%;
+      height: 100%; }
+  .main1 .sec2 {
+    width: 50%;
+    background-color: #d3caca;
+    padding: 4rem; }
+    .main1 .sec2 h1 {
+      font-weight: 700;
+      font-size: 5rem;
+      line-height: 1.3;
+      margin-bottom: 2rem; }
+    .main1 .sec2 h3 {
+      padding-right: 12rem;
+      font-size: 1.5rem;
+      margin-bottom: 2rem; }
+    .main1 .sec2 .second-h3 {
+      font-size: 1.3rem; }
+      .main1 .sec2 .second-h3 .svg-logo {
+        padding-top: .5rem; }
+
+.main2 {
+  display: flex;
+  width: 80vw;
+  height: 60vh;
+  margin-left: 11.11rem; }
+  .main2 .sec1 {
+    width: 50%;
+    background-color: #d3caca;
+    padding: 5rem; }
+    .main2 .sec1 h1 {
+      font-weight: 700;
+      font-size: 3.7rem;
+      line-height: 1.3;
+      margin-bottom: 2rem;
+      padding: 0 22rem 0 0; }
+    .main2 .sec1 h3 {
+      padding-right: 9rem;
+      font-size: 1.5rem;
+      margin-bottom: 2rem; }
+    .main2 .sec1 .second-h3 {
+      font-size: 1.0rem; }
+      .main2 .sec1 .second-h3 .svg-logo {
+        padding-top: .5rem; }
+  .main2 .sec2 {
+    width: 50%; }
+    .main2 .sec2 img {
+      width: 100%;
+      height: 100%; }
